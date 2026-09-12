@@ -35,15 +35,6 @@ body {
   margin: 20px auto;
 }
 
-/* Navigation links */
-.links {
-  margin: 25px 0;
-}
-
-.links a {
-  margin: 0 15px;
-}
-
 /* Mobile styles with @media */
 @media screen and (max-width: 600px) {
   .photo {
@@ -56,10 +47,6 @@ body {
 
   .about-text {
     width: 80%;
-  }
-
-  .links a {
-    margin: 0 5px;
   }
 
   .film-strip {
