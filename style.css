@@ -1,0 +1,68 @@
+/* Main website styles */
+body {
+  background-color: aqua;
+  color: black;
+  text-align: center;
+}
+
+/* Home page film strip */
+.film-strip {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 100vh;
+}
+
+/* Home page main photo */
+.home-photo {
+  width: 500px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Photos used on the other pages */
+.photo {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* About Me paragraph */
+.about-text {
+  width: 60%;
+  margin: 20px auto;
+}
+
+/* Navigation links */
+.links {
+  margin: 25px 0;
+}
+
+.links a {
+  margin: 0 15px;
+}
+
+/* Mobile styles with @media */
+@media screen and (max-width: 600px) {
+  .photo {
+    width: 70%;
+  }
+
+  .home-photo {
+    width: 70%;
+  }
+
+  .about-text {
+    width: 80%;
+  }
+
+  .links a {
+    margin: 0 5px;
+  }
+
+  .film-strip {
+    width: 60px;
+  }
+}
